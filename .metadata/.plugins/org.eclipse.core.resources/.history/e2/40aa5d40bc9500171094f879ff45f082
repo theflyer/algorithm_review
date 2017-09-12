@@ -1,0 +1,33 @@
+package palindrom;
+
+public class pal {
+	
+	public static void pal (String s){
+		//String p= "";
+		
+		for (int i =1; i <= s.length() -2 ; i++){
+			String p= "";
+			if ( s.charAt(i-1)== s.charAt(i+1)){
+				for ( int j = 0; j <= i +1; j++){
+					p += s.charAt(j);
+				}
+				System.out.println(p);
+				p= "";
+				
+			}
+		}
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "abbppqqwoooopxyz"";
+		pal(s);
+		
+		
+
+	}
+
+}

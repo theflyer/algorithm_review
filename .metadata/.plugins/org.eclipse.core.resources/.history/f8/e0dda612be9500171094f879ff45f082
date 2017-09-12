@@ -1,0 +1,26 @@
+package palindrom;
+
+public class pal {
+	
+	public static void pal (String s){
+		if(s.charAt(0) == s.charAt(s.length() -1 )){
+			System.out.println("Pallindrom");
+		}
+		else {
+			System.out.println("not pallindrom");
+		}
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "rar";
+		pal(s);
+		
+		
+
+	}
+
+}
